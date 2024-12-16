@@ -1,0 +1,28 @@
+\chapter{Related Work}
+\hrule
+\vspace{.5cm}
+
+% \begin{enumerate}
+%     \item{}
+
+Alshammari, Zohdy, Debnath, and Corser (2018) \cite{alshammari2018classification} presented a classification approach for intrusion detection specifically for Internet of vehicles. In their study, they address the critical issue of cybersecurity in vehicular networks, where unauthorized access or malicious activities can pose significant threats to safety and privacy. 
+They have proposed a classification-based intrusion detection system (IDS) using two machine learning algorithms the support vector machine (SVM) and also the k-nearest neighbors (KNN) algorithm to detect CAN intrusions on in-vehicle networks that aims to identify and mitigate such threats effectively. Through their approach, the authors leverage machine learning techniques to analyze the data of network traffic and detect anomalous behavior indicative of potential security breaches.
+   \\
+   \textbf{Challenges : } It doesn't consider real-world deployment scenarios.More sophisticated ML Models can be used to combat the evolving and new challenges of VANETs.
+    % \item{} 
+    \\
+    \\
+    \pagebreak
+   \par Lokman et al. \cite{lokman2018stacked}
+suggested a novel anomaly detection methodology which they took inspiration from unsupervised deep learning, specifically leveraging Stacked Sparse Autoencoders (SSAEs). The proposed SSAEs framework comprises multiple layers of stacked sparse Autoencoders. By utilizing unlabeled normal and attack CAN data as input, they employed an unsupervised greedy layer-wise training algorithm. This approach imposes a bottleneck in the network, compelling a compressed representation of the original CAN input features. Subsequently harnessing the learned structure of CAN input data to identify anomalies within the CAN bus data.
+\\
+\textbf{Challenges :}SSAEs may struggle with scalability when applied to large-scale vehicular networks with numerous ECUs and extensive CAN traffic.SSAEs learn patterns from the training data. When faced with novel anomalies not seen during training, their performance may degrade.
+\\
+\\
+
+   
+   
+
+
+
+
